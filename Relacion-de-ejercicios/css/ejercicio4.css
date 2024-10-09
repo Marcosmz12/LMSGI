@@ -1,0 +1,24 @@
+div {
+    background-color: grey;
+    
+}
+
+#CAJA{
+    border: 5px solid;
+}
+
+#CAJA2{
+    border: 5px solid;
+    padding: 2px;
+}
+
+#TRABAJADOR1{
+    color: blue;
+    text-align: center;
+}
+
+#TRABAJADOR2{
+    color: green;
+    text-align: center;
+
+}
