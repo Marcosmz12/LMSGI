@@ -3,13 +3,17 @@ div {
     
 }
 
+#Datos{
+    font-size: 50px;
+    color: red;
+}
+
 #CAJA{
-    border: 5px solid;
+    border: 2px solid;
 }
 
 #CAJA2{
-    border: 5px solid;
-    padding: 2px;
+    border: 2px solid;
 }
 
 #TRABAJADOR1{
@@ -20,5 +24,4 @@ div {
 #TRABAJADOR2{
     color: green;
     text-align: center;
-
 }
