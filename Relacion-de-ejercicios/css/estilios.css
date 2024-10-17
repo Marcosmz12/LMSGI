@@ -13,9 +13,44 @@ h2{
 }
 
 p{
-    
+    color: #000;
+    font-size: 16px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+caption{
+    color: #000;
+    font-size: 14px;
 }
 
 thead{
+    background-color: #666;
+}
 
+tbody{
+    background-color: #fff;
+}
+
+tfoot{
+    background-color: #ccc;
+}
+
+th{
+    font-size: 16px;
+    color: white;
+}
+
+td{
+    font-size: 16px;
+    color: #000;
+}
+
+a{
+    color: blue;
+    font-size: 16px;
 }
