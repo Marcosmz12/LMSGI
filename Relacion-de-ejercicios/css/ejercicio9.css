@@ -36,5 +36,18 @@ p.estilo-1{
 
 p.estilo-2{
     border: 15px solid #804800;
-    
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 50%;
+    background-color: #b35733;
+    color: white;
+}
+
+p.estilo-3{
+    border: #3379b3 5px dotted;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 20px;
+    background-color: #004680;
+    color: white;
 }
