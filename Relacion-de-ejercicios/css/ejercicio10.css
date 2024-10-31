@@ -1,0 +1,53 @@
+@font-face{
+    font-family: fuente_ribeye;
+    src: url(../font-family/RibeyeMarrow-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: fuente_justa;
+    src: url(../font-family/JustAnotherHand-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: fuente_lobster;
+    src: url(../font-family/Lobster-Regular.ttf) format('truetype');
+}
+
+body{
+    background-color: #ccac4d;
+}
+
+h1{
+    font-family: fuente_ribeye;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.intro{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    line-height: 200%;
+    text-align: center;
+}
+
+cite{
+    text-decoration:underline;
+}
+
+p.latin{
+    margin:3rem,0,0;
+    font-family: fuente_lobster;
+    font-size: 2.5rem;
+}
+
+p.espanol{
+    margin: 0,0 3rem;
+    color: white;
+    font-family: fuente_justa;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
