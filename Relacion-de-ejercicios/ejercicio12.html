@@ -6,9 +6,30 @@
         <link rel="stylesheet" href="/css/ejercicio12.css">
     </head>
     <body>
-        <form title="Datos Personales" aria-required="false">
-            <p>Nombre: <input type="text" size="50" title="Nombre" name="Su nombre" placeholder="Su nombre"  required></p>
-            <p>Correo Electronico: <input type="email" placeholder="usuario@dominio.com" size="40" title="Correo electronico" name="mail" required/></p>
+        
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                Nombre:<input type="text" size="50" title="Nombre" name="Su nombre" placeholder="Su nombre"><br>
+                Correo Electronico:<input type="email" placeholder="usuario@dominio.com" size="40" title="Correo electronico" name="mail" required/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+
+                Breve descripcion del proyecto:<br>
+                <textarea name="descripcion"></textarea><p>
+
+                Estado actual del proyecto:<br>
+                <input type="radio" name="Proceso" value="En planteamiento">En planteamiento
+                <input type="radio" name="Proceso" value="En planificación">En planificación
+                <input type="radio" name="Proceso" value="En ejecución">En ejecución
+                <input type="radio" name="Proceso" value="Ya finalizado">Ya finalizado<p>
+
+                Presupuesto aproximado (en €) <input type="number" name="Presupuesto" value="1000" min="100" max="30000" step="100">
+            </fieldset>
+            <input type="submit" name="Enviar" id="boton" value="Enviar">
         </form>
     </body>
 </html>

@@ -1,5 +1,6 @@
 form{
-    text-align: center;
+    margin: 0 auto;
+    width: 500px;
     font-size: 14px;
     color: #6B121B;
     border: 1px dashed  #B8BFCB;
@@ -11,7 +12,7 @@ fieldset{
     border: 1px dashed grey;
     border-radius: 6px;
     margin-bottom: 15px;
-    padding: 0px 0px 20px 20px ;
+    padding:0 20px;
 }
 
 legend{
@@ -27,4 +28,41 @@ input{
     font-size: 16px;
     padding: 3px 3px 3px 10px;
     outline: none;
+}
+
+#boton{
+    padding: 6px 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #2A477A;
+    font-size: 14px;
+}
+
+#boton:hover{
+    background-color: #5376B2;
+}
+
+textarea{
+    width: 450px;
+    height: 40px;
+    max-width: 493px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding: 3px 3px 3px 10px;
+}
+
+:required{
+    border-color: #4AA248;
+    box-shadow: 0 0 3px #FF7F7F;
+}
+
+:invalid{
+    border: #FF7F7F;
+    box-shadow: 0 0 3px #FF7F7F;
 }
