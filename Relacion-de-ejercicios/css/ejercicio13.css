@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     background-color: #254159;
 }
@@ -12,19 +17,37 @@ h1{
     font-size: 25px;
 }
 
-
 nav{
     background-color: #466883;
+    padding: 10px;
 }
 
-nav ul {
+ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-nav ul li{
+li{
     display: inline;
-    margin-right: 15px ;
     color: white;
+    margin-right: 45px ;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#cajas-informacion{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
 }
