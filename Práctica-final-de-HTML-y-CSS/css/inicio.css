@@ -1,8 +1,12 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     display: flex;
     flex-direction: column;
 }
-
 
 nav{
     background-color: #EE9EB5;
@@ -19,9 +23,16 @@ li{
     display: inline;
     color: black;
     margin-right: 45px ;
+    font-size: 18px;
 }
 
-img{
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+#concierto{
     height: 200px;
     width: 150px;
 }
@@ -33,9 +44,33 @@ img{
     padding: 10px;
     box-shadow:  2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
     border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
 }
 
-#torii-yama{
+#Lanzamientos{
+    display: flex;
+    flex-direction: column;
+}
+
+#Albums{
+    display: flex;
+    flex-direction: row;
+}
+
+#portada-albums{
     height: 200px;
     width: 200px;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+}
+
+#footer-img{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
 }
