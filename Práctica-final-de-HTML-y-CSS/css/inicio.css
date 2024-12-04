@@ -3,59 +3,6 @@
     src: url(/Práctica-final-de-HTML-y-CSS/font-family/GaMaamli-Regular.ttf) format('truetype');
 }
 
-
-html, body {
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-}
-
-header{
-    display: flex;
-    flex-direction: column;
-    background-color: #EE9EB5;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#caja-escudo{
-    text-align: center;
-}
-
-#escudo-dellafuente{
-    height: 150px;
-    width: 150px;
-    padding: 10px;
-    
-}
-
-#menu{
-    background-color: #EE9EB5;
-    padding: 15px;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-#lista{
-    display: inline;
-    color: black;
-    margin-right: 45px ;
-    font-size: 18px;
-    font-family: fuente_gamaamli;
-}
-
 main{
     display: flex;
     flex-direction: row;
@@ -93,14 +40,4 @@ main{
     height: 200px;
     width: 200px;
     padding: 5px;
-}
-
-footer{
-    background-color: black;
-}
-
-#footer-img{
-    margin: 20px;
-    height: 100px;
-    width: 100px;
 }
