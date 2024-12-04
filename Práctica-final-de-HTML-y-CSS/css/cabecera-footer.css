@@ -17,6 +17,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #EE9EB5;
+    justify-content: center;
 }
 
 a{
@@ -61,6 +62,14 @@ ul {
 
 .link:hover{
     color: yellow;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
